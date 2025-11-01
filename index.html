@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pustaka Software</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="icon" type="image/png" href="images/favicon.png"> </head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <h1><i class="fas fa-box-archive"></i> Pustaka Software</h1>
+            <button id="theme-toggle" class="theme-toggle-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <div class="search-container">
+            <i class="fas fa-search"></i>
+            <input type="search" id="search-bar" placeholder="Cari di semua software...">
+        </div>
+
+        <nav class="category-nav">
+            <a href="#java-section"><i class="fab fa-java"></i> Software Java & Localhost</a>
+            <a href="#coding-section"><i class="fas fa-code"></i> Software Coding IDE</a>
+        </nav>
+
+
+        <section id="java-section" class="software-category">
+            <h2><i class="fab fa-java"></i>Software Java & Localhost</h2>
+            
+            <div class="software-grid">
+                
+                <div class="software-card">
+                    <div class="card-icon">
+                        <img src="https://www.logo.wine/a/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.svg" alt="JAVA VERSION">
+                    </div>
+                    <h3>Java Development Kit</h3>
+                    <p>JDK yang dibutuhkan.</p>
+                    <button class="download-btn version-toggle-btn">
+                        <i class="fas fa-download"></i> Tampilkan Versi
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </button>
+
+                    <div class="version-list" style="display: none;">
+                        <a href="https://www.mediafire.com/file/z0xlbh821bzae8h/jdk-24.0.2_windows-x64_bin.exe/file" class="version-link" target="_blank">
+                            <strong>JDK 24.0.2</strong> (Terbaru Support Netbeans 21+)
+                        </a>
+                        <a href="https://www.mediafire.com/file/5yhs6efoax8cl5g/jdk-17.0.12_windows-x64_bin.exe/file" class="version-link" target="_blank">
+                            <strong>JDK 17.0.12</strong> (JDK 17 Support Netbeans 17+)
+                        </a>
+                        <a href="https://www.mediafire.com/file/gqfum32dx68z0g3/jdk-8u461-windows-i586.exe/file" class="version-link" target="_blank">
+                            <strong>JDK 8 8u41</strong> (Download ini kalo pake netbeans lawas 8.2)
+                        </a>
+                    </div>
+                </div>
+
+                <div class="software-card">
+                    <div class="card-icon">
+                        <img src="https://cdn2.iconfinder.com/data/icons/pack1-baco-flurry-icons-style/512/XAMPP.png" alt="XAMPP">
+                    </div>
+                    <h3>XAMPP</h3>
+                    <p>Localhost</p>
+                    
+                    <a href="https://www.mediafire.com/file/s1owaerjug7pkgc/xampp-windows-x64-8.0.30-0-VS16-installer.exe/file" class="download-btn" download>
+                        <i class="fas fa-download"></i> Unduh
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section id="coding-section" class="software-category">
+            <h2><i class="fas fa-code"></i> Kumpulan Software Coding</h2>
+            
+            <div class="software-grid">
+                <div class="software-card">
+                    <div class="card-icon">
+                        <img src="https://www.logo.wine/a/logo/NetBeans/NetBeans-Logo.wine.svg" alt="Netbeans">
+                    </div>
+                    <h3>Apache Netbeans</h3>
+                    <p>IDE untuk JAVA.</p>
+                    <button class="download-btn version-toggle-btn">
+                        <i class="fas fa-download"></i> Tampilkan Versi
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </button>
+
+                    <div class="version-list" style="display: none;">
+                        <a href="https://www.mediafire.com/file/7u7lhw8gbavtg3s/Apache-NetBeans-27.exe/file" class="version-link" target="_blank">
+                            <strong>Apache Netbeans 27</strong> (Terbaru)
+                        </a>
+                        <a href="https://www.mediafire.com/file/siyb741ka84czrw/Apache-NetBeans-17-bin-windows-x64.exe/file" class="version-link" target="_blank">
+                            <strong>Apache Netbeans 17</strong> (Versi 17)
+                        </a>
+                        <a href="https://www.mediafire.com/file/xms9ja33o2ymnq7/netbeans-8.2-windows.exe/file" class="version-link" target="_blank">
+                            <strong>Netbeans 8.2</strong> (Old version)
+                        </a>
+                    </div>
+                </div>
+
+                <div class="software-grid">
+                <div class="software-card">
+                    <div class="card-icon">
+                        <img src="https://www.logo.wine/a/logo/C%2B%2B/C%2B%2B-Logo.wine.svg" alt="Netbeans">
+                    </div>
+                    <h3>Dev C++</h3>
+                    <p>IDE C++.</p>
+                    <button class="download-btn version-toggle-btn">
+                        <i class="fas fa-download"></i> Tampilkan Versi
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </button>
+
+                    <div class="version-list" style="display: none;">
+                        <a href="https://www.mediafire.com/file/vdsfjjoyzd11prr/devcpp-4.9.9.2_setup.exe/file" class="version-link" target="_blank">
+                            <strong>Dev cpp 4.9.9.2</strong> 
+                        </a>
+                        <a href="https://www.mediafire.com/file/5a985c9tfcuqo3r/Embarcadero_Dev-Cpp_6.3_TDM-GCC_9.2_Setup.zip/file" class="version-link" target="_blank">
+                            <strong>Embarcadero Dev-cpp 6.3</strong> (Katanya lebih ringan lebih enak lebih jos!)
+                        </a>
+                    
+                    </div>
+                </div>
+                
+<div class="software-card">
+                    <div class="card-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="XAMPP">
+                    </div>
+                    <h3>Visual Studio Code</h3>
+                    <p>Editor Text Ringan</p>
+                    
+                    <a href="https://www.mediafire.com/file/xkfjw23yeqqyyqz/VSCodeUserSetup-x64-1.105.1.exe/file" class="download-btn" download>
+                        <i class="fas fa-download"></i> Unduh
+                    </a>
+                </div>
+                
+            </div>
+                
+            </div>
+        </section>
+
+    </main>
+    </main> <footer class="site-footer">
+        <p>Dibuat dengan <i class="fas fa-heart" style="color: #e74c3c;"></i> oleh <strong>CIBAYGAMTENK</strong> &copy; 2025</p>
+        <p>
+            <a href="[LINK_GITHUB_ANDA]" target="_blank"><i class="fab fa-github"></i></a>
+            &nbsp;&nbsp; <a href="[LINK_INSTAGRAM_ANDA]" target="_blank"><i class=""></i></a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
